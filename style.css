@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(223, 204, 175);
+}
+
+.headName {
+    width: 800px;
+    height: 100px;
+
+}
+
+.list {
+    width: 800px;
+    height: auto;
+    border: 0.1px solid black;
+}
+
+button {
+    margin: 3px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+li button {
+    display: none;
+}
+
+li.completed button {
+    display: inline-block;
+}
+
+li.completed span {
+    text-decoration: line-through;
+}
+
+.backdrop {
+    position: fixed;
+    background-color: rgba(28, 28, 28, 0.606);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+.wrong {
+    border: 3px solid red;
+}
